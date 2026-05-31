@@ -25,7 +25,7 @@ Hi! I'm **Nelda (阮清閒)**, a 3rd-year Informatics student in the IBPI depart
 
 <div align="justify">
   
-* **Health-Sync:** A health monitoring application tracking daily vitals and generating personalized nutrition plans.
+* **MOS Cyber Console:** A hybrid embedded system bridging hardware emulation and physical interaction.
 * **Sort-Arm:** A robotic arm system for automated goods classification using computer vision.
 * **LogicCraft:** An interactive visualization platform for learning algorithms and data structures.
 
