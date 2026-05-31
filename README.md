@@ -1,4 +1,4 @@
-# Nelda (Nguyen Thanh Nhan) - Personal Portfolio
+# 阮清閒 (Nelda) - Personal Portfolio
 
 <div align="justify">Welcome to my personal portfolio website! This repository contains the source code for my portfolio, designed to showcase my academic journey, technical skills, and featured projects.</div>
 
