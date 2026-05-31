@@ -6,7 +6,9 @@ Live Site: [neldaaa.github.io](https://neldaaa.github.io/)
 
 ## 👩‍💻 About Me
 
-<div align="justify">Hi! I'm **Nelda (阮清閒)**, a 3rd-year Informatics student in the IBPI department. My journey brought me from Vietnam to Taiwan to pursue my passion for technology and data. I have a deep passion for mathematics and algorithmic thinking, which naturally led me to specialize in multimodal machine learning and embedded systems.</div>
+<div align="justify">
+  
+Hi! I'm **Nelda (阮清閒)**, a 3rd-year Informatics student in the IBPI department. My journey brought me from Vietnam to Taiwan to pursue my passion for technology and data. I have a deep passion for mathematics and algorithmic thinking, which naturally led me to specialize in multimodal machine learning and embedded systems. </div>
 
 ## 🌟 About This Project
 
