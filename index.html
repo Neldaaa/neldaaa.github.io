@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -201,7 +201,7 @@
   /* SKILLS  */
   .skills-wrapper { background: var(--c-beige-light); border-radius: 32px; padding: 4.5rem 10rem; box-shadow: 0 20px 40px rgba(0,0,0,0.03); border: 2px solid var(--white); }
   .skill-tags { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
-  .skill-tag { background: var(--white); color: var(--text-main); padding: 12px 24px; border: 2px solid var(--c-blue); border-radius: 100px; font-weight: 600; font-size: 0.95rem; box-shadow: 0 4px 10px rgba(0,0,0,0.02); transition: all 0.3s; cursor: default; }
+  .skill-tag { background: var(--white); color: var(--text-main); padding: 12px 24px; border: 2px solid var(--c-blue); border-radius: 100px; font-weight: 600; font-size: 0.95rem; box-shadow: 0 4px 10px rgba(0,0,0,0.02); transition: all 0.3s; cursor: none; }
   .skill-tag:hover { transform: scale(1.05); background: var(--c-yellow); }
 
   /* PROJECTS  */
@@ -318,10 +318,10 @@
       <h2 class="sec-title">Featured Projects</h2>
     </div>
     <div class="proj-grid">
-      <a href=" " target="_blank" class="proj-card" style="text-decoration: none;">
-        <div class="proj-header"><h3 class="proj-name">Health-Sync</h3><span class="proj-num">01</span></div>
-        <p class="proj-desc">A health monitoring application that tracks daily vitals and generates personalized diet and nutrition plans based on user data.</p>
-        <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">Data Analysis</span><span class="ptag">Machine Learning</span></div>
+      <a href="https://github.com/Neldaaa/Renode-UART-Controller" target="_blank" class="proj-card" style="text-decoration: none;">
+        <div class="proj-header"><h3 class="proj-name">Cyber Console</h3><span class="proj-num">01</span></div>
+        <p class="proj-desc">A hybrid embedded system bridging hardware emulation and physical interaction, integrating MOS RTOS, Renode, and DE1-SoC FPGA for interactive cyber-physical gaming.</p>
+        <div class="proj-tags"><span class="ptag">Embedded Systems</span><span class="ptag">RTOS</span><span class="ptag">Python</span></div>
       </a>
       <a href="https://github.com/Neldaaa/Sort-Arm" target="_blank" class="proj-card" style="text-decoration: none;">
         <div class="proj-header"><h3 class="proj-name">Sort-Arm</h3><span class="proj-num">02</span></div>
@@ -348,7 +348,6 @@
 <script>
   let lastDrawTime = 0;
 
-  // Hiệu ứng chuột kéo theo sao rơi
   document.addEventListener('mousemove', e => {
     const cursor = document.getElementById('star-cursor');
     cursor.style.left = e.clientX + 'px';
@@ -375,7 +374,6 @@
     document.getElementById('star-cursor').style.transform = 'translate(-50%, -50%) scale(1)';
   });
 
-  // Hiệu ứng Scroll Reveal (trượt lên khi cuộn trang)
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('active'); });
   }, { threshold: 0.1 });
@@ -383,4 +381,4 @@
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 </script>
 </body>
-</html> -->
+</html>
